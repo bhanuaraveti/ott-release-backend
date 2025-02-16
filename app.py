@@ -1,10 +1,17 @@
 from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
+from dotenv import load_dotenv
 import os
+
+# Load environment variables only in local development
+if os.getenv("RENDER") is None:  # Render sets "RENDER" variable automatically
+    from dotenv import load_dotenv
+    load_dotenv()
 
 app = Flask(__name__)
 
 # Database Configuration
+print(os.getenv("DATABASE_URL"))
 app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")  # Use Render's PostgreSQL URL
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
