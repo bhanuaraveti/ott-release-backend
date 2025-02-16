@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS  # Import CORS
 from dotenv import load_dotenv
 import os
 
@@ -9,6 +10,7 @@ if os.getenv("RENDER") is None:  # Render sets "RENDER" variable automatically
     load_dotenv()
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 # Database Configuration
 print(os.getenv("DATABASE_URL"))
