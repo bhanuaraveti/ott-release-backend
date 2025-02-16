@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 
-# Database Configuration (Render will provide DATABASE_URL)
-app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")  # Set this in Render later
+# Database Configuration
+app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")  # Use Render's PostgreSQL URL
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
@@ -19,7 +19,7 @@ class Movie(db.Model):
     type = db.Column(db.String(50), nullable=False)
     imdb_rating = db.Column(db.Float, nullable=True)
 
-# API Route to fetch movies
+# API Route to Fetch Movies
 @app.route("/movies", methods=["GET"])
 def get_movies():
     movies = Movie.query.all()
@@ -27,6 +27,10 @@ def get_movies():
         {"name": m.name, "platform": m.platform, "available_on": m.available_on, "type": m.type, "imdb_rating": m.imdb_rating}
         for m in movies
     ])
+
+# Run database migration when the app starts
+with app.app_context():
+    db.create_all()
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
