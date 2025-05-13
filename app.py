@@ -1,45 +1,53 @@
 from flask import Flask, jsonify
-from flask_sqlalchemy import SQLAlchemy
-from flask_cors import CORS  # Import CORS
-from dotenv import load_dotenv
+from flask_cors import CORS
 import os
-
-# Load environment variables only in local development
-if os.getenv("RENDER") is None:  # Render sets "RENDER" variable automatically
-    from dotenv import load_dotenv
-    load_dotenv()
+import json
+import subprocess
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
-# Database Configuration
-print(os.getenv("DATABASE_URL"))
-app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")  # Use Render's PostgreSQL URL
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+# File path for reading the movie data
+DATA_DIR = "data"
+DATA_FILE = os.path.join(DATA_DIR, "movies.json")
 
-db = SQLAlchemy(app)
-
-# Movie Model
-class Movie(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(200), nullable=False)
-    platform = db.Column(db.String(100), nullable=False)
-    available_on = db.Column(db.String(50), nullable=False)
-    type = db.Column(db.String(50), nullable=False)
-    imdb_rating = db.Column(db.Float, nullable=True)
+def ensure_data_exists():
+    """Checks if data file exists, and runs scraper if it doesn't."""
+    if not os.path.exists(DATA_FILE):
+        print("📁 Movie data file not found. Running scrapper...")
+        try:
+            # Run the scrapper.py script to fetch and save data
+            result = subprocess.run(["python", "scrapper.py"], 
+                                capture_output=True, text=True, check=True)
+            print(f"🔄 Scrapper output: {result.stdout}")
+            return True
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Error running scrapper: {e}")
+            print(f"Stderr: {e.stderr}")
+            return False
+    return True
 
 # API Route to Fetch Movies
 @app.route("/movies", methods=["GET"])
 def get_movies():
-    movies = Movie.query.all()
-    return jsonify([
-        {"name": m.name, "platform": m.platform, "available_on": m.available_on, "type": m.type, "imdb_rating": m.imdb_rating}
-        for m in movies
-    ])
-
-# Run database migration when the app starts
-with app.app_context():
-    db.create_all()
+    try:
+        # Ensure data file exists, run scrapper if necessary
+        if not ensure_data_exists():
+            return jsonify({"error": "Could not generate movie data"}), 500
+            
+        # If file still doesn't exist after running scrapper
+        if not os.path.exists(DATA_FILE):
+            return jsonify({"error": "Movie data not found"}), 404
+        
+        # Read movies from JSON file
+        with open(DATA_FILE, 'r', encoding='utf-8') as file:
+            movies = json.load(file)
+            
+        return jsonify(movies)
+    
+    except Exception as e:
+        print(f"Error reading movie data: {str(e)}")
+        return jsonify({"error": "Failed to load movie data"}), 500
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
