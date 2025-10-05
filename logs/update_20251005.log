@@ -1,0 +1,23 @@
+2025-10-05 12:56:38,786 - INFO - ============================================================
+2025-10-05 12:56:38,786 - INFO - Starting automated movie data update
+2025-10-05 12:56:38,786 - INFO - ============================================================
+2025-10-05 12:56:38,786 - INFO - Created safety backup: /Users/aravetibhanu/projects/ott-release/ott-release-backend/data/movies_safety_20251005_125638.json
+2025-10-05 12:56:38,786 - INFO - Starting scraper...
+2025-10-05 12:56:59,529 - INFO - Scraper output:
+🔍 Fetching movie data...
+✅ Scraped 896 movies successfully!
+📚 Loaded 896 existing movies from file
+🔄 Sorting movies by release date...
+🎉 Movie data saved! Added 0 new movies to the file.
+💾 Created backup: data/movies_backup_20251005_125639.json
+
+2025-10-05 12:56:59,530 - INFO - Scraper completed successfully.
+2025-10-05 12:56:59,531 - INFO - Data validation passed. 896 movies found.
+2025-10-05 12:56:59,531 - INFO - Update completed successfully!
+2025-10-05 12:56:59,531 - INFO - Removed safety backup (update successful).
+2025-10-05 12:56:59,531 - INFO - Cleaning up backups older than 30 days...
+2025-10-05 12:56:59,532 - INFO - Deleted old backup: movies_backup_20250513_145101.json
+2025-10-05 12:56:59,532 - INFO - Cleanup complete. Deleted 1 old backup(s).
+2025-10-05 12:56:59,532 - INFO - ============================================================
+2025-10-05 12:56:59,532 - INFO - Automated update completed
+2025-10-05 12:56:59,532 - INFO - ============================================================

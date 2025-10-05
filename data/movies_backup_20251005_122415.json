@@ -5647,5 +5647,628 @@
     "available_on": "08 Jan 2021",
     "type": "Film",
     "imdb_rating": null
+  },
+  {
+    "name": "OG",
+    "platform": "Netflix",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kishkindhapuri",
+    "platform": "Zee5",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mirai",
+    "platform": "JioHotstar",
+    "available_on": "10 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Little Hearts",
+    "platform": "ETV Win",
+    "available_on": "01 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Junior",
+    "platform": "Aha & Prime Video",
+    "available_on": "01 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Ghaati",
+    "platform": "Prime Video",
+    "available_on": "26 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Meghalu Cheppina Prema Katha",
+    "platform": "Sun NXT",
+    "available_on": "26 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Hridayapoorvam (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "26 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sundarakanda",
+    "platform": "JioHotstar",
+    "available_on": "23 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mahavatar Narsimha",
+    "platform": "Netflix",
+    "available_on": "19 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Prema Ishq Kaadhal",
+    "platform": "ETV Win",
+    "available_on": "18 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kanya Kumari",
+    "platform": "Prime Video",
+    "available_on": "17 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Paradha",
+    "platform": "Prime Video",
+    "available_on": "12 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Coolie",
+    "platform": "Prime Video",
+    "available_on": "11 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Su From So (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "09 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Bakasura Restaurant",
+    "platform": "Prime Video",
+    "available_on": "08 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Aditya Vikrama Vyuha",
+    "platform": "Aha",
+    "available_on": "05 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kannappa",
+    "platform": "Prime Video",
+    "available_on": "04 Sep 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "The 100",
+    "platform": "Prime Video & Lionsgate Play",
+    "available_on": "29 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Thunderbolts (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "28 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kingdom",
+    "platform": "Netflix",
+    "available_on": "27 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Maaman (Telugu)",
+    "platform": "Zee5",
+    "available_on": "27 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sir Madam",
+    "platform": "Prime Video",
+    "available_on": "22 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kothapallilo Okappudu",
+    "platform": "Aha",
+    "available_on": "22 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Maareesan (Telugu)",
+    "platform": "Netflix",
+    "available_on": "22 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Prema Katha",
+    "platform": "ETV Win",
+    "available_on": "21 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Hari Hara Veera Mallu",
+    "platform": "Prime Video",
+    "available_on": "20 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Virgin Boys",
+    "platform": "Prime Video",
+    "available_on": "15 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Gamblers",
+    "platform": "Sun NXT",
+    "available_on": "15 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Constable Kanakam",
+    "platform": "ETV Win",
+    "available_on": "14 Aug 2025",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Arabia Kadali",
+    "platform": "Prime Video",
+    "available_on": "08 Aug 2025",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mayasabha",
+    "platform": "Sony LIV",
+    "available_on": "07 Aug 2025",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Badmashulu",
+    "platform": "ETV Win",
+    "available_on": "07 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Paranthu Po  (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "05 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Thammudu",
+    "platform": "Netflix",
+    "available_on": "01 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Oh Bhama Ayyo Rama",
+    "platform": "ETV Win",
+    "available_on": "01 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "3BHK",
+    "platform": "Prime Video",
+    "available_on": "01 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Jinn - The Pet (Telugu)",
+    "platform": "Sun NXT",
+    "available_on": "01 Aug 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Red Sandal Wood",
+    "platform": "ETV Win",
+    "available_on": "31 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Solo Boy",
+    "platform": "Aha",
+    "available_on": "25 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Maargan (Telugu)",
+    "platform": "Prime Video",
+    "available_on": "25 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Ronth (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "22 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kuberaa",
+    "platform": "Prime Video",
+    "available_on": "18 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Bhairavam",
+    "platform": "Zee5",
+    "available_on": "18 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "8 Vasantalu",
+    "platform": "Netflix",
+    "available_on": "11 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Narivetta (Telugu)",
+    "platform": "Sony LIV",
+    "available_on": "10 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Santhosham (Telugu)",
+    "platform": "ETV Win",
+    "available_on": "10 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sri Sri Sri Raajavaru",
+    "platform": "Aha",
+    "available_on": "04 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Uppu Kappurambu",
+    "platform": "Prime Video",
+    "available_on": "04 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Jagamerigina Satyam",
+    "platform": "Sun NXT",
+    "available_on": "04 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Usha Parinayam",
+    "platform": "BMS Stream (Rent)",
+    "available_on": "04 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Thug Life (Telugu)",
+    "platform": "Netflix",
+    "available_on": "03 Jul 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "AIR",
+    "platform": "ETV Win",
+    "available_on": "03 Jul 2025",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "23 (Iravai Moodu)",
+    "platform": "Prime Video & ETV Win",
+    "available_on": "27 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Oka Pathakam Prakaaram",
+    "platform": "Sun NXT",
+    "available_on": "27 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Saaree",
+    "platform": "Lionsgate Play",
+    "available_on": "27 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Viraatapalem",
+    "platform": "Zee5",
+    "available_on": "27 Jun 2025",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Oka Brundavanam",
+    "platform": "ETV Win",
+    "available_on": "20 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Ghatikachalam",
+    "platform": "Prime Video",
+    "available_on": "20 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Alappuzha Gymkhana (Telugu)",
+    "platform": "Aha",
+    "available_on": "20 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kolla (Telugu)",
+    "platform": "ETV Win",
+    "available_on": "19 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Haddhu Ledhu Raa",
+    "platform": "Prime Video (Rent)",
+    "available_on": "19 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Subham",
+    "platform": "JioHotstar",
+    "available_on": "13 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Eleven (Telugu)",
+    "platform": "Prime Video",
+    "available_on": "13 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Alappuzha Gymkhana (Telugu)",
+    "platform": "Sony LIV",
+    "available_on": "13 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Blind Spot",
+    "platform": "Prime Video",
+    "available_on": "13 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "DD Next Level (Telugu)",
+    "platform": "Zee5",
+    "available_on": "13 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Dear Uma",
+    "platform": "Sun NXT",
+    "available_on": "13 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Ace (Telugu)",
+    "platform": "Prime Video",
+    "available_on": "13 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Rana Naidu S2",
+    "platform": "Netflix",
+    "available_on": "13 Jun 2025",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Karthika Missing Case",
+    "platform": "Aha",
+    "available_on": "13 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Dear Daddy",
+    "platform": "ETV Win",
+    "available_on": "08 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Single",
+    "platform": "Prime Video",
+    "available_on": "06 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Devika & Danny",
+    "platform": "JioHotstar",
+    "available_on": "06 Jun 2025",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Pelli Kani Prasad",
+    "platform": "ETV Win",
+    "available_on": "05 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Jigel",
+    "platform": "Sun NXT",
+    "available_on": "04 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Tourist Family (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "02 Jun 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Retro (Telugu)",
+    "platform": "Netflix",
+    "available_on": "30 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Thudarum (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "30 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "HIT: The Third Case",
+    "platform": "Netflix",
+    "available_on": "29 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Chaurya Paatham",
+    "platform": "Prime Video",
+    "available_on": "27 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Tantra",
+    "platform": "Prime Video",
+    "available_on": "24 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sarangapani Jathakam",
+    "platform": "Prime Video",
+    "available_on": "23 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "#Viral Prapancham",
+    "platform": "Sun NXT",
+    "available_on": "23 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Pendulum (Telugu)",
+    "platform": "ETV Win",
+    "available_on": "22 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Bhavani Ward 1997",
+    "platform": "Prime Video (Rent)",
+    "available_on": "20 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Arjun Son Of Vyjayanthi",
+    "platform": "Prime Video",
+    "available_on": "16 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Amruthangamaya",
+    "platform": "BMS Stream (Rent)",
+    "available_on": "16 May 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Jolly O Gymkhana (Telugu)",
+    "platform": "Aha",
+    "available_on": "15 May 2025",
+    "type": "Film",
+    "imdb_rating": null
   }
 ]

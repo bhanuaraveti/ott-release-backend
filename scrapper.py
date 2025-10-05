@@ -62,13 +62,41 @@ def scrape_movies():
     # Save to file
     save_to_file(movies_list)
 
+def parse_date(date_str):
+    """Parse date string to a datetime object for sorting."""
+    if not date_str:
+        return datetime.max  # Put empty dates at the end
+
+    date_str = date_str.strip().lower()
+
+    # Handle "Soon" or "Coming Soon" - put these at the very top
+    if 'soon' in date_str:
+        return datetime.min
+
+    try:
+        # Try parsing various date formats
+        # Format: "15 May 2025" or "15 May 2024"
+        return datetime.strptime(date_str, "%d %b %Y")
+    except ValueError:
+        try:
+            # Format: "May 2025" (day not specified)
+            return datetime.strptime(date_str, "%b %Y")
+        except ValueError:
+            try:
+                # Format: "15 May" (year not specified, assume current year)
+                current_year = datetime.now().year
+                return datetime.strptime(f"{date_str} {current_year}", "%d %b %Y")
+            except ValueError:
+                # If all parsing fails, put at the end
+                return datetime.max
+
 def save_to_file(movies):
     """Saves scraped movies to a JSON file."""
     # Create data directory if it doesn't exist
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
         print(f"📁 Created directory: {DATA_DIR}")
-    
+
     # Load existing data if file exists
     existing_movies = []
     if os.path.exists(DATA_FILE):
@@ -78,25 +106,41 @@ def save_to_file(movies):
                 print(f"📚 Loaded {len(existing_movies)} existing movies from file")
             except json.JSONDecodeError:
                 print("⚠️ Error reading existing file, creating new one")
-    
+
     # Update with new movies (avoiding duplicates)
     updated_movies = existing_movies.copy()
     new_count = 0
-    
+
     for movie in movies:
         # Check if movie already exists
-        if not any(existing['name'] == movie['name'] and existing['platform'] == movie['platform'] 
+        if not any(existing['name'] == movie['name'] and existing['platform'] == movie['platform']
                   for existing in existing_movies):
             updated_movies.append(movie)
             new_count += 1
             print(f"📝 Adding {movie['name']} to the file...")
-    
+
+    # Sort movies: "Soon" first, then by date (newest first), then by name
+    print("🔄 Sorting movies by release date...")
+    def sort_key(movie):
+        parsed_date = parse_date(movie.get('available_on', ''))
+        # "Soon" movies: smallest value to appear first
+        if parsed_date == datetime.min:
+            return (0, datetime.min, movie.get('name', ''))
+        # Invalid/empty dates: largest value to appear last
+        elif parsed_date == datetime.max:
+            return (2, datetime.max, movie.get('name', ''))
+        # Normal dates: reverse timestamp for newest first
+        else:
+            return (1, -parsed_date.timestamp(), movie.get('name', ''))
+
+    updated_movies.sort(key=sort_key)
+
     # Save the updated list
     with open(DATA_FILE, 'w', encoding='utf-8') as file:
         json.dump(updated_movies, file, indent=2, ensure_ascii=False)
-    
+
     print(f"🎉 Movie data saved! Added {new_count} new movies to the file.")
-    
+
     # Create a timestamped backup file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     backup_file = os.path.join(DATA_DIR, f"movies_backup_{timestamp}.json")
