@@ -107,17 +107,35 @@ def save_to_file(movies):
             except json.JSONDecodeError:
                 print("⚠️ Error reading existing file, creating new one")
 
-    # Update with new movies (avoiding duplicates)
+    # Update with new movies and update existing movies with new release dates
     updated_movies = existing_movies.copy()
     new_count = 0
+    updated_count = 0
 
     for movie in movies:
         # Check if movie already exists
-        if not any(existing['name'] == movie['name'] and existing['platform'] == movie['platform']
-                  for existing in existing_movies):
+        existing_movie = next(
+            (existing for existing in updated_movies
+             if existing['name'] == movie['name'] and existing['platform'] == movie['platform']),
+            None
+        )
+
+        if existing_movie is None:
+            # New movie - add it
             updated_movies.append(movie)
             new_count += 1
             print(f"📝 Adding {movie['name']} to the file...")
+        else:
+            # Movie exists - check if we need to update the release date
+            old_date = existing_movie.get('available_on', '').strip().lower()
+            new_date = movie.get('available_on', '').strip()
+
+            # Update if old data was "Soon" and new data has actual date
+            # Or if the dates are different (source updated the date)
+            if old_date in ['soon', 'coming soon', ''] and new_date.lower() not in ['soon', 'coming soon', '']:
+                existing_movie['available_on'] = new_date
+                updated_count += 1
+                print(f"🔄 Updated {movie['name']}: 'Soon' → '{new_date}'")
 
     # Sort movies: "Soon" first, then by date (newest first), then by name
     print("🔄 Sorting movies by release date...")
@@ -139,7 +157,7 @@ def save_to_file(movies):
     with open(DATA_FILE, 'w', encoding='utf-8') as file:
         json.dump(updated_movies, file, indent=2, ensure_ascii=False)
 
-    print(f"🎉 Movie data saved! Added {new_count} new movies to the file.")
+    print(f"🎉 Movie data saved! Added {new_count} new, updated {updated_count} existing movies.")
 
     # Create a timestamped backup file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

@@ -1,70 +1,7 @@
 [
   {
-    "name": "12A Railway Colony",
-    "platform": "Prime Video",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
-    "name": "Akhanda 2",
-    "platform": "Netflix",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
-    "name": "Andhra King Taluka",
-    "platform": "Netflix",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
     "name": "Baahubali: The Epic",
     "platform": "JioHotstar",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
-    "name": "Dude",
-    "platform": "Netflix",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
-    "name": "K-Ramp",
-    "platform": "Aha",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
-    "name": "Kishkindhapuri",
-    "platform": "Zee5",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
-    "name": "Mass Jathara",
-    "platform": "Netflix",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
-    "name": "OG",
-    "platform": "Netflix",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
-    "name": "Raju Weds Rambai",
-    "platform": "ETV Win",
     "available_on": "Soon",
     "type": "Film",
     "imdb_rating": null
@@ -77,16 +14,16 @@
     "imdb_rating": null
   },
   {
-    "name": "Telusu Kadha",
-    "platform": "Netflix",
+    "name": "The Raja Saab",
+    "platform": "JioHotstar",
     "available_on": "Soon",
     "type": "Film",
     "imdb_rating": null
   },
   {
-    "name": "The Raja Saab",
-    "platform": "JioHotstar",
-    "available_on": "Soon",
+    "name": "Akhanda 2",
+    "platform": "Netflix",
+    "available_on": "09 Jan 2026",
     "type": "Film",
     "imdb_rating": null
   },
@@ -154,6 +91,13 @@
     "imdb_rating": null
   },
   {
+    "name": "Andhra King Taluka",
+    "platform": "Netflix",
+    "available_on": "25 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
     "name": "11:11",
     "platform": "Aha",
     "available_on": "23 Dec 2025",
@@ -203,6 +147,13 @@
     "imdb_rating": null
   },
   {
+    "name": "Raju Weds Rambai",
+    "platform": "ETV Win",
+    "available_on": "18 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
     "name": "Thamma (Telugu)",
     "platform": "Prime Video",
     "available_on": "16 Dec 2025",
@@ -220,6 +171,13 @@
     "name": "Kaantha",
     "platform": "Netflix",
     "available_on": "12 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "12A Railway Colony",
+    "platform": "Prime Video",
+    "available_on": "11 Dec 2025",
     "type": "Film",
     "imdb_rating": null
   },
@@ -273,6 +231,13 @@
     "imdb_rating": null
   },
   {
+    "name": "Mass Jathara",
+    "platform": "Netflix",
+    "available_on": "28 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
     "name": "Paanch Minar",
     "platform": "Prime Video",
     "available_on": "28 Nov 2025",
@@ -318,6 +283,27 @@
     "name": "Karmanye Vadhikaraste",
     "platform": "Sun NXT",
     "available_on": "21 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "K-Ramp",
+    "platform": "Aha",
+    "available_on": "15 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Dude",
+    "platform": "Netflix",
+    "available_on": "14 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Telusu Kadha",
+    "platform": "Netflix",
+    "available_on": "14 Nov 2025",
     "type": "Film",
     "imdb_rating": null
   },
@@ -385,6 +371,13 @@
     "imdb_rating": null
   },
   {
+    "name": "OG",
+    "platform": "Netflix",
+    "available_on": "23 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
     "name": "Thank You Dear",
     "platform": "Prime Video",
     "available_on": "23 Oct 2025",
@@ -394,6 +387,13 @@
   {
     "name": "Daksha: The Deadly Conspiracy",
     "platform": "Prime Video",
+    "available_on": "17 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kishkindhapuri",
+    "platform": "Zee5",
     "available_on": "17 Oct 2025",
     "type": "Film",
     "imdb_rating": null
