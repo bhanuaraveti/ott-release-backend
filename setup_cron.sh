@@ -1,5 +1,11 @@
 #!/bin/bash
 # Setup script for cron job to run daily movie data updates
+#
+# Virtual Environment: /Users/aravetibhanu/projects/virtualenvs/python3.10
+# Python Version: 3.10.19
+#
+# To activate manually:
+#   source /Users/aravetibhanu/projects/virtualenvs/python3.10/bin/activate
 
 CRON_COMMAND="/Users/aravetibhanu/projects/virtualenvs/python3.10/bin/python /Users/aravetibhanu/projects/ott-release/ott-release-backend/auto_update.py"
 

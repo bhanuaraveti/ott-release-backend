@@ -1,4 +1,16 @@
 # -*- coding: utf-8 -*-
+"""
+Telugu Movies OTT Release Backend API
+
+Virtual Environment: /Users/aravetibhanu/projects/virtualenvs/python3.10
+Python Version: 3.10.19
+
+To run locally:
+    source /Users/aravetibhanu/projects/virtualenvs/python3.10/bin/activate
+    python app.py
+
+Server runs on port 5001
+"""
 from flask import Flask, jsonify, Response
 from flask_cors import CORS
 import os

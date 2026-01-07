@@ -1,7 +1,56 @@
 [
   {
+    "name": "12A Railway Colony",
+    "platform": "Prime Video",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Akhanda 2",
+    "platform": "Netflix",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Andhra King Taluka",
+    "platform": "Netflix",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Baahubali: The Epic",
+    "platform": "JioHotstar",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Dude",
+    "platform": "Netflix",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "K-Ramp",
+    "platform": "Aha",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
     "name": "Kishkindhapuri",
     "platform": "Zee5",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mass Jathara",
+    "platform": "Netflix",
     "available_on": "Soon",
     "type": "Film",
     "imdb_rating": null
@@ -14,9 +63,366 @@
     "imdb_rating": null
   },
   {
+    "name": "Raju Weds Rambai",
+    "platform": "ETV Win",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Shambhala",
+    "platform": "Aha",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Telusu Kadha",
+    "platform": "Netflix",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "The Raja Saab",
+    "platform": "JioHotstar",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Silent Screams",
+    "platform": "Sun NXT",
+    "available_on": "08 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Ayalaan (Telugu)",
+    "platform": "Aha",
+    "available_on": "07 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Jigris",
+    "platform": "Sun NXT",
+    "available_on": "06 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Eko (Telugu)",
+    "platform": "Netflix",
+    "available_on": "03 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Beauty",
+    "platform": "Zee5",
+    "available_on": "02 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Drive",
+    "platform": "Prime Video",
+    "available_on": "02 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mowgli",
+    "platform": "ETV Win",
+    "available_on": "01 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Baahubali: The Epic",
+    "platform": "Netflix",
+    "available_on": "26 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Revolver Rita (Telugu)",
+    "platform": "Netflix",
+    "available_on": "26 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "11:11",
+    "platform": "Aha",
+    "available_on": "23 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Divya Dristi",
+    "platform": "Sun NXT",
+    "available_on": "19 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Little Hearts",
+    "platform": "Netflix",
+    "available_on": "19 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mufti Police",
+    "platform": "Aha & Sun NXT",
+    "available_on": "19 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Nayanam",
+    "platform": "Zee5",
+    "available_on": "19 Dec 2025",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Premante",
+    "platform": "Netflix",
+    "available_on": "19 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Santhana Prapthirasthu",
+    "platform": "JioHotstar & Prime Video",
+    "available_on": "19 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Thamma (Telugu)",
+    "platform": "Prime Video",
+    "available_on": "16 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "3 Roses Season 2",
+    "platform": "Aha",
+    "available_on": "12 Dec 2025",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kaantha",
+    "platform": "Netflix",
+    "available_on": "12 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kalivi Vanam",
+    "platform": "ETV Win",
+    "available_on": "11 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Dies Irae (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "05 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Jatadhara",
+    "platform": "Prime Video",
+    "available_on": "05 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "The Girl Friend",
+    "platform": "Netflix",
+    "available_on": "05 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "The Great Pre-Wedding Show",
+    "platform": "Zee5",
+    "available_on": "05 Dec 2025",
+    "type": "",
+    "imdb_rating": null
+  },
+  {
+    "name": "The Hunter Chapter 1",
+    "platform": "Aha",
+    "available_on": "03 Dec 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Aaryan (Telugu)",
+    "platform": "Netflix",
+    "available_on": "28 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Paanch Minar",
+    "platform": "Prime Video",
+    "available_on": "28 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Premistunnaa",
+    "platform": "Aha",
+    "available_on": "28 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sasivadane",
+    "platform": "Sun NXT",
+    "available_on": "28 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "The Pet Detective (Telugu)",
+    "platform": "Zee5",
+    "available_on": "28 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Bison Kaalamaadan",
+    "platform": "Netflix",
+    "available_on": "21 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Diesel (Telugu)",
+    "platform": "Prime Video",
+    "available_on": "21 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Karmanye Vadhikaraste",
+    "platform": "Sun NXT",
+    "available_on": "21 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mithra Mandali",
+    "platform": "Prime Video",
+    "available_on": "06 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Bad Girl (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "04 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Papa (Telugu)",
+    "platform": "Prime Video",
+    "available_on": "01 Nov 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kantara: Chapter 1",
+    "platform": "Prime Video",
+    "available_on": "31 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Lokah: Chapter 1 - Chandra",
+    "platform": "JioHotstar",
+    "available_on": "31 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Idli Kottu",
+    "platform": "Netflix",
+    "available_on": "29 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Life Stories",
+    "platform": "Prime Video (Rent)",
+    "available_on": "29 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Arjun Chakravarthy",
+    "platform": "Prime Video",
+    "available_on": "24 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Bhadrakaali",
+    "platform": "JioHotstar",
+    "available_on": "24 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Thank You Dear",
+    "platform": "Prime Video",
+    "available_on": "23 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Daksha: The Deadly Conspiracy",
+    "platform": "Prime Video",
+    "available_on": "17 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Oka Manchi Prema Katha",
+    "platform": "ETV Win",
+    "available_on": "16 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
     "name": "Mirai",
     "platform": "JioHotstar",
     "available_on": "10 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Tribanadhari Barbarik",
+    "platform": "Sun NXT",
+    "available_on": "10 Oct 2025",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "War 2 (Telugu)",
+    "platform": "Netflix",
+    "available_on": "09 Oct 2025",
     "type": "Film",
     "imdb_rating": null
   },
