@@ -1,7 +1,28 @@
 [
   {
+    "name": "Anaganaga Oka Raju",
+    "platform": "Netflix",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
     "name": "Baahubali: The Epic",
     "platform": "JioHotstar",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Bhartha Mahasayulaku Wignyapthi",
+    "platform": "Zee5",
+    "available_on": "Soon",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mana Shankar Varaprasad Garu",
+    "platform": "Zee5",
     "available_on": "Soon",
     "type": "Film",
     "imdb_rating": null
@@ -21,9 +42,51 @@
     "imdb_rating": null
   },
   {
+    "name": "Cheekatilo",
+    "platform": "Prime Video",
+    "available_on": "23 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Gurram Paapi Reddy",
+    "platform": "Zee5",
+    "available_on": "16 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Kalamkaval (Telugu)",
+    "platform": "SonyLiv",
+    "available_on": "16 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Dhandoraa",
+    "platform": "Prime Video",
+    "available_on": "14 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Anantha",
+    "platform": "JioHotstar",
+    "available_on": "13 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
     "name": "Akhanda 2",
     "platform": "Netflix",
     "available_on": "09 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Andhela Ravamidhi",
+    "platform": "Prime Video (Rent)",
+    "available_on": "08 Jan 2026",
     "type": "Film",
     "imdb_rating": null
   },
