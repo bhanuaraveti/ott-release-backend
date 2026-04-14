@@ -1,12 +1,5 @@
 [
   {
-    "name": "Anaganaga Oka Raju",
-    "platform": "Netflix",
-    "available_on": "Soon",
-    "type": "Film",
-    "imdb_rating": null
-  },
-  {
     "name": "Baahubali: The Epic",
     "platform": "JioHotstar",
     "available_on": "Soon",
@@ -14,30 +7,366 @@
     "imdb_rating": null
   },
   {
+    "name": "Pochamma",
+    "platform": "Aha",
+    "available_on": "17 Apr 2026",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Samrat",
+    "platform": "ETV Win",
+    "available_on": "17 Apr 2026",
+    "type": "Series",
+    "imdb_rating": null
+  },
+  {
+    "name": "Ustaad Bhagat Singh",
+    "platform": "Netflix",
+    "available_on": "16 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Youth (Telugu)",
+    "platform": "Netflix",
+    "available_on": "16 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sambhavam Adhyayam Onnu (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "15 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Chitti Thalli",
+    "platform": "ETV Win",
+    "available_on": "10 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sabdham",
+    "platform": "Zee5",
+    "available_on": "10 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Dark Night",
+    "platform": "Aha",
+    "available_on": "09 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Nilave",
+    "platform": "ETV Win",
+    "available_on": "09 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mrithyunjay",
+    "platform": "Netflix",
+    "available_on": "03 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "S.Saraswathi",
+    "platform": "Prime Video",
+    "available_on": "03 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sampradayini Suppini Suddapoosani",
+    "platform": "Netflix",
+    "available_on": "03 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Euphoria",
+    "platform": "ETV Win",
+    "available_on": "02 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Hey Balwanth",
+    "platform": "Zee5",
+    "available_on": "31 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Repu Udayam 10 Gantalaku",
+    "platform": "Prime Video",
+    "available_on": "27 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Vishnu Vinyasam",
+    "platform": "Prime Video",
+    "available_on": "20 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Seetha Payanam",
+    "platform": "Sun NXT",
+    "available_on": "19 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
     "name": "Bhartha Mahasayulaku Wignyapthi",
     "platform": "Zee5",
-    "available_on": "Soon",
+    "available_on": "13 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Bookie",
+    "platform": "Zee5",
+    "available_on": "13 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Couple Friendly",
+    "platform": "Prime Video",
+    "available_on": "13 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Funky",
+    "platform": "Netflix",
+    "available_on": "13 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Nawab Cafe",
+    "platform": "ETV Win",
+    "available_on": "12 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Lockdown",
+    "platform": "Prime Video",
+    "available_on": "11 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "EMI : Every Month Insecure",
+    "platform": "ETV Win",
+    "available_on": "08 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Anaganaga Australia Lo",
+    "platform": "Aha",
+    "available_on": "06 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Gandhi Talks (Telugu)",
+    "platform": "Zee5",
+    "available_on": "06 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "With Love (Telugu)",
+    "platform": "Netflix",
+    "available_on": "06 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Charitha Kamakshi",
+    "platform": "ETV Win",
+    "available_on": "05 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Om Shanti Shanti Shantihi",
+    "platform": "Aha",
+    "available_on": "04 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Devagudi",
+    "platform": "Sun NXT",
+    "available_on": "03 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Vanchana",
+    "platform": "Sun NXT",
+    "available_on": "03 Mar 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sri Chidambaram Garu",
+    "platform": "ETV Win",
+    "available_on": "26 Feb 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Isha",
+    "platform": "Prime Video",
+    "available_on": "20 Feb 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Maruva Tarama",
+    "platform": "ETV Win",
+    "available_on": "14 Feb 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Vanaveera",
+    "platform": "Prime Video",
+    "available_on": "13 Feb 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Anaganaga Oka Raju",
+    "platform": "Netflix",
+    "available_on": "11 Feb 2026",
     "type": "Film",
     "imdb_rating": null
   },
   {
     "name": "Mana Shankar Varaprasad Garu",
     "platform": "Zee5",
-    "available_on": "Soon",
+    "available_on": "11 Feb 2026",
     "type": "Film",
     "imdb_rating": null
   },
   {
-    "name": "Shambhala",
-    "platform": "Aha",
-    "available_on": "Soon",
+    "name": "Parasakthi (Telugu)",
+    "platform": "Zee5",
+    "available_on": "07 Feb 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Maathru",
+    "platform": "Lionsgate Play",
+    "available_on": "06 Feb 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Nilakanta",
+    "platform": "Sun NXT",
+    "available_on": "06 Feb 2026",
     "type": "Film",
     "imdb_rating": null
   },
   {
     "name": "The Raja Saab",
     "platform": "JioHotstar",
-    "available_on": "Soon",
+    "available_on": "06 Feb 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Nari Nari Naduma Murari",
+    "platform": "Prime Video",
+    "available_on": "04 Feb 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Psych Siddhartha",
+    "platform": "Aha",
+    "available_on": "04 Feb 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "45 (Telugu)",
+    "platform": "Zee5",
+    "available_on": "30 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Dhurandhar (Telugu)",
+    "platform": "Netflix",
+    "available_on": "30 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Gatha Vaibhava (Telugu)",
+    "platform": "Prime Video",
+    "available_on": "30 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Patang",
+    "platform": "Sun NXT & Prime Video",
+    "available_on": "30 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sarvam Maya (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "30 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Champion",
+    "platform": "Netflix",
+    "available_on": "29 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Constable",
+    "platform": "ETV Win",
+    "available_on": "29 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Annagaru Vostaru (Vaa Vaathiyaar)",
+    "platform": "Prime Video",
+    "available_on": "28 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Sirai (Telugu)",
+    "platform": "Zee5",
+    "available_on": "26 Jan 2026",
     "type": "Film",
     "imdb_rating": null
   },
@@ -45,6 +374,20 @@
     "name": "Cheekatilo",
     "platform": "Prime Video",
     "available_on": "23 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Mario",
+    "platform": "Aha",
+    "available_on": "23 Jan 2026",
+    "type": "Film",
+    "imdb_rating": null
+  },
+  {
+    "name": "Shambhala",
+    "platform": "Aha",
+    "available_on": "22 Jan 2026",
     "type": "Film",
     "imdb_rating": null
   },
