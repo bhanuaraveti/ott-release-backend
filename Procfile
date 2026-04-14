@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: RUN_SCHEDULER=1 gunicorn --workers=1 --threads=4 app:app

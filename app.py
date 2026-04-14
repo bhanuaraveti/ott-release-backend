@@ -13,13 +13,26 @@ Server runs on port 5001
 """
 from flask import Flask, jsonify, Response
 from flask_cors import CORS
+import logging
 import os
 import json
 import subprocess
 from datetime import datetime
 
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(name)s - %(message)s",
+)
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
+
+# Start the in-process daily scraper when explicitly enabled. Gate with an env
+# var so that only one gunicorn worker schedules (set RUN_SCHEDULER=1 and run
+# gunicorn with --workers=1 in production).
+if os.environ.get("RUN_SCHEDULER") == "1":
+    from scheduler import start_scheduler
+    start_scheduler()
 
 # File path for reading the movie data
 DATA_DIR = "data"
