@@ -9,6 +9,7 @@ import os
 
 from apscheduler.schedulers.background import BackgroundScheduler
 
+from deploy_hook import trigger_frontend_rebuild
 from scrapper import scrape_movies
 
 logger = logging.getLogger(__name__)
@@ -21,9 +22,16 @@ def _run_scrape():
     logger.info("Scheduled scrape starting")
     try:
         scrape_movies()
-        logger.info("Scheduled scrape finished")
     except Exception:
-        logger.exception("Scheduled scrape failed")
+        logger.exception("Scheduled scrape failed; skipping frontend rebuild")
+        return
+
+    logger.info("Scheduled scrape finished; triggering frontend rebuild")
+    success, message = trigger_frontend_rebuild()
+    if success:
+        logger.info("Frontend deploy hook triggered: %s", message)
+    else:
+        logger.warning("Frontend deploy hook not triggered: %s", message)
 
 
 def start_scheduler():

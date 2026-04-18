@@ -11,13 +11,15 @@ To run locally:
 
 Server runs on port 5001
 """
-from flask import Flask, jsonify, Response
+from flask import Flask, jsonify, request, Response
 from flask_cors import CORS
 import logging
 import os
 import json
 import subprocess
 from datetime import datetime
+
+from deploy_hook import trigger_frontend_rebuild
 
 logging.basicConfig(
     level=logging.INFO,
@@ -75,6 +77,29 @@ def get_movies():
     except Exception as e:
         print(f"Error reading movie data: {str(e)}")
         return jsonify({"error": "Failed to load movie data"}), 500
+
+@app.route("/admin/rebuild-frontend", methods=["POST"])
+def rebuild_frontend():
+    """Manual deploy-hook trigger, guarded by a shared secret header.
+
+    - If ADMIN_REBUILD_SECRET is unset: 503 (feature disabled).
+    - If set but X-Admin-Secret header is missing or wrong: 401.
+    - On success: 200 {"status": "triggered"}.
+    - On hook failure: 502 {"error": "..."}.
+    """
+    expected_secret = os.environ.get("ADMIN_REBUILD_SECRET")
+    if not expected_secret:
+        return jsonify({"error": "admin rebuild disabled"}), 503
+
+    provided_secret = request.headers.get("X-Admin-Secret")
+    if not provided_secret or provided_secret != expected_secret:
+        return jsonify({"error": "unauthorized"}), 401
+
+    success, message = trigger_frontend_rebuild()
+    if success:
+        return jsonify({"status": "triggered", "detail": message}), 200
+    return jsonify({"error": message}), 502
+
 
 @app.route("/sitemap.xml", methods=["GET"])
 def get_sitemap():
