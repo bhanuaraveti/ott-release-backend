@@ -166,6 +166,19 @@ def save_to_file(movies):
         json.dump(updated_movies, file, indent=2, ensure_ascii=False)
     print(f"💾 Created backup: {backup_file}")
 
+    # TMDB enrichment pass — additive, only touches records without tmdb_id.
+    # Failures (e.g. missing API key, rate-limit fallout) are logged but do
+    # not fail the scrape; the base movies.json is already on disk above.
+    try:
+        from enrich import enrich_new_movies
+        print("🎬 Enriching new records with TMDB metadata...")
+        enrich_new_movies(updated_movies)
+        with open(DATA_FILE, 'w', encoding='utf-8') as file:
+            json.dump(updated_movies, file, indent=2, ensure_ascii=False)
+        print("✅ TMDB enrichment complete.")
+    except Exception as exc:  # noqa: BLE001 - enrichment must never break the scrape
+        print(f"⚠️ TMDB enrichment skipped: {exc}")
+
 if __name__ == "__main__":
     scrape_movies()
     time.sleep(20)  # Respect the crawl delay to avoid getting blocked
