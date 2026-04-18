@@ -101,56 +101,6 @@ def rebuild_frontend():
     return jsonify({"error": message}), 502
 
 
-@app.route("/sitemap.xml", methods=["GET"])
-def get_sitemap():
-    """Generate dynamic sitemap with actual lastmod date from data file."""
-    try:
-        # Get last modification time of movies.json
-        if os.path.exists(DATA_FILE):
-            lastmod_timestamp = os.path.getmtime(DATA_FILE)
-            lastmod_date = datetime.fromtimestamp(lastmod_timestamp).strftime('%Y-%m-%d')
-        else:
-            lastmod_date = datetime.now().strftime('%Y-%m-%d')
-
-        base_url = "https://telugumoviesott.onrender.com"
-
-        sitemap_xml = f'''<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>{base_url}/</loc>
-    <lastmod>{lastmod_date}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>{base_url}/about</loc>
-    <lastmod>{lastmod_date}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>{base_url}/privacy</loc>
-    <lastmod>{lastmod_date}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-</urlset>'''
-
-        return Response(sitemap_xml, mimetype='application/xml')
-
-    except Exception as e:
-        print(f"Error generating sitemap: {str(e)}")
-        return Response("Error generating sitemap", status=500)
-
-@app.route("/robots.txt", methods=["GET"])
-def get_robots():
-    """Serve robots.txt file."""
-    robots_txt = '''User-agent: *
-Allow: /
-Sitemap: https://telugumoviesott.onrender.com/sitemap.xml
-'''
-    return Response(robots_txt, mimetype='text/plain')
-
 @app.route("/rss.xml", methods=["GET"])
 def get_rss():
     """Generate RSS feed for latest movie releases."""
