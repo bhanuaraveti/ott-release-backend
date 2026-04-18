@@ -25,7 +25,10 @@ from tmdb_client import TMDBError, get_movie, search_movie
 logger = logging.getLogger(__name__)
 
 POSTER_BASE = "https://image.tmdb.org/t/p/w500"
-RATE_LIMIT_SLEEP_SEC = 0.3  # ~13 req/s worst case; TMDB allows 40 / 10s.
+# TMDB's published limit is 40 req / 10s = 4 req/s average. Each record
+# costs ~2 calls (search + detail), so a 0.55s sleep caps us at ~3.6 req/s —
+# safely under the ceiling with headroom for the occasional year-retry.
+RATE_LIMIT_SLEEP_SEC = 0.55
 
 
 def _now_iso_z() -> str:
@@ -215,6 +218,8 @@ def _enrich_each(records: list[dict], predicate) -> list[dict]:
     total = len(targets)
     for i, r in enumerate(targets):
         enrich_movie(r)
+        status = r.get("enrichment_status") or "?"
+        logger.info("[%d/%d] %s -> %s", i + 1, total, r.get("name"), status)
         if i < total - 1:
             time.sleep(RATE_LIMIT_SLEEP_SEC)
     return records

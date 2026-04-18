@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import logging
 import os
 import sys
 import tempfile
@@ -45,6 +46,11 @@ def _atomic_write_json(path: str, payload) -> None:
 
 
 def main() -> int:
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+        stream=sys.stdout,
+    )
     parser = argparse.ArgumentParser(description="Backfill TMDB metadata into data/movies.json")
     parser.add_argument(
         "--all",

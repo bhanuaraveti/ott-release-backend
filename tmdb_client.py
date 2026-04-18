@@ -10,6 +10,7 @@ Retries 5xx and transient requests.RequestException with exponential backoff.
 """
 from __future__ import annotations
 
+import logging
 import os
 from typing import Any
 
@@ -20,6 +21,8 @@ from tenacity import (
     stop_after_attempt,
     wait_exponential,
 )
+
+logger = logging.getLogger(__name__)
 
 BASE_URL = "https://api.themoviedb.org/3"
 DEFAULT_TIMEOUT = 10  # seconds
@@ -71,6 +74,9 @@ def _get(path: str, params: dict[str, Any] | None = None) -> dict[str, Any]:
         headers=headers,
         timeout=DEFAULT_TIMEOUT,
     )
+    # Log request + response for visibility during backfill. The query string
+    # is already in resp.url, including the v4 token is NOT (it's a header).
+    logger.info("TMDB %s -> %s", resp.url, resp.status_code)
     resp.raise_for_status()
     return resp.json()
 
