@@ -43,6 +43,162 @@
     "enrichment_status": "ok"
   },
   {
+    "name": "Band Melam",
+    "platform": "Zee5",
+    "available_on": "24 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "band-melam",
+    "tmdb_id": 1547712,
+    "overview": "Giri and Raaji grew up together in a small village; their love and bonding also grew, but changing fortunes and misunderstandings drove them and their families apart. While Raaji moves ahead with her studies, Giri searches for his path through music with his village band. Life takes them in completely different directions until circumstances bring them face to face again. What really unfolds between them forms the rest of the story.",
+    "poster_path": "/4hdgEE7GLj0JLP0q0GXwslG3s7C.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/4hdgEE7GLj0JLP0q0GXwslG3s7C.jpg",
+    "release_date": "2026-03-26",
+    "runtime": 141,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Harsh Roshan",
+        "character": "Giri"
+      },
+      {
+        "name": "Sridevi Apalla",
+        "character": "Rajamma"
+      },
+      {
+        "name": "Sai Kumar",
+        "character": null
+      }
+    ],
+    "director": "Sathish Javvaji",
+    "tmdb_checked_at": "2026-04-23T02:42:47Z",
+    "enrichment_status": "ok"
+  },
+  {
+    "name": "Happy Raj (Telugu)",
+    "platform": "Prime Video",
+    "available_on": "24 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "happy-raj-telugu",
+    "tmdb_id": null,
+    "overview": null,
+    "poster_path": null,
+    "poster_url": null,
+    "release_date": null,
+    "runtime": null,
+    "genres": [],
+    "cast": [],
+    "director": null,
+    "tmdb_checked_at": "2026-04-23T02:42:49Z",
+    "enrichment_status": "not_found"
+  },
+  {
+    "name": "Nee Forever (Telugu)",
+    "platform": "Netflix",
+    "available_on": "24 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "nee-forever-telugu",
+    "tmdb_id": null,
+    "overview": null,
+    "poster_path": null,
+    "poster_url": null,
+    "release_date": null,
+    "runtime": null,
+    "genres": [],
+    "cast": [],
+    "director": null,
+    "tmdb_checked_at": "2026-04-23T02:42:52Z",
+    "enrichment_status": "not_found"
+  },
+  {
+    "name": "Lechindi Mahila Lokam",
+    "platform": "Sun NXT",
+    "available_on": "22 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "lechindi-mahila-lokam",
+    "tmdb_id": 1678386,
+    "overview": "Centers women's voices in a narrative of empowerment and resistance. The Telugu film weaves together diverse female experiences, examining how women balance societal expectations, personal goals, and systemic obstacles.",
+    "poster_path": "/qN6l49yrfaepk0bAMtqEUaTVBmf.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/qN6l49yrfaepk0bAMtqEUaTVBmf.jpg",
+    "release_date": "2026-03-26",
+    "runtime": 110,
+    "genres": [],
+    "cast": [
+      {
+        "name": "Gemini Ashok",
+        "character": null
+      },
+      {
+        "name": "Sreerama chandra",
+        "character": null
+      },
+      {
+        "name": "Aravind",
+        "character": null
+      },
+      {
+        "name": "Shraddha Das",
+        "character": null
+      },
+      {
+        "name": "Lakshmi Manchu",
+        "character": null
+      }
+    ],
+    "director": null,
+    "tmdb_checked_at": "2026-04-23T02:42:55Z",
+    "enrichment_status": "ok"
+  },
+  {
+    "name": "Mension House Mallesh",
+    "platform": "Prime Video",
+    "available_on": "22 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "mension-house-mallesh",
+    "tmdb_id": 1647142,
+    "overview": "In a quiet village where gossip spreads faster than the wind, a swaggering young man becomes the talk of the town after his wedding night sparks unexpected rumours. What follows is a hilarious chain of misunderstandings, ego clashes, and small-town chaos. Mension House Mallesh is a lively rural entertainer packed with satire and nonstop laughter.",
+    "poster_path": "/1jexjNlyvZihnYo6p6mK2oJyF9v.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/1jexjNlyvZihnYo6p6mK2oJyF9v.jpg",
+    "release_date": "2026-03-06",
+    "runtime": 121,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Maganti Srinath",
+        "character": "Mallesh"
+      },
+      {
+        "name": "Gayathri Ramana",
+        "character": null
+      },
+      {
+        "name": "Kamakshi Bhaskarla",
+        "character": null
+      },
+      {
+        "name": "Muralidhar Goud",
+        "character": null
+      },
+      {
+        "name": "Rajhessh",
+        "character": null
+      }
+    ],
+    "director": "Bala Satish",
+    "tmdb_checked_at": "2026-04-23T02:42:57Z",
+    "enrichment_status": "ok"
+  },
+  {
     "name": "Pochamma",
     "platform": "Aha",
     "available_on": "17 Apr 2026",
@@ -104,6 +260,69 @@
     "director": "Dr. Chandraprakash Dwivedi",
     "tmdb_checked_at": "2026-04-18T02:54:01Z",
     "enrichment_status": "ok"
+  },
+  {
+    "name": "Suyodhana",
+    "platform": "JioHotstar & Prime Video",
+    "available_on": "17 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "suyodhana",
+    "tmdb_id": 1658163,
+    "overview": "A young Foley artist has grown up hearing a mysterious voice called Suyodhana and often visualises a figure resembling Duryodhana. Raised by his mother and supported by his childhood friend and partner, his life takes a turn when he is accused of his father’s murder, leading to an investigation that uncovers deeper layers of his past.",
+    "poster_path": "/s56x3fGTN6J1jbBMBDnLY7t4iyU.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/s56x3fGTN6J1jbBMBDnLY7t4iyU.jpg",
+    "release_date": "2026-03-27",
+    "runtime": 130,
+    "genres": [
+      "Family",
+      "Thriller",
+      "Mystery"
+    ],
+    "cast": [
+      {
+        "name": "Priyadarshi Pullikonda",
+        "character": null
+      },
+      {
+        "name": "Drishika Chander",
+        "character": null
+      },
+      {
+        "name": "Sai Kumar",
+        "character": null
+      },
+      {
+        "name": "Devi Prasad",
+        "character": null
+      },
+      {
+        "name": "Rajshri Nair",
+        "character": null
+      }
+    ],
+    "director": "YS Madav Reddy",
+    "tmdb_checked_at": "2026-04-23T02:42:58Z",
+    "enrichment_status": "ok"
+  },
+  {
+    "name": "AlaChereSeetharamuniChentaku",
+    "platform": "ETV Win",
+    "available_on": "16 Apr 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "alachereseetharamunichentaku",
+    "tmdb_id": null,
+    "overview": null,
+    "poster_path": null,
+    "poster_url": null,
+    "release_date": null,
+    "runtime": null,
+    "genres": [],
+    "cast": [],
+    "director": null,
+    "tmdb_checked_at": "2026-04-23T02:43:02Z",
+    "enrichment_status": "not_found"
   },
   {
     "name": "Ustaad Bhagat Singh",
@@ -1092,17 +1311,38 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "devagudi",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T02:55:23Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1626530,
+    "overview": "Three childhood friends whose bond is fractured by caste divisions and challenging circumstances. A pivotal incident disrupts their lives and relationships.",
+    "poster_path": "/5GugAhJcPqTscqNFOqgoJ53ZjwE.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/5GugAhJcPqTscqNFOqgoJ53ZjwE.jpg",
+    "release_date": "2026-01-30",
+    "runtime": 152,
+    "genres": [
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "cast": [
+      {
+        "name": "Abhinav Shaurya",
+        "character": "Dharma"
+      },
+      {
+        "name": "Anusri",
+        "character": "Swetha"
+      },
+      {
+        "name": "Narasimha Toshi",
+        "character": "Raghava Reddy"
+      },
+      {
+        "name": "Raghu Kunche",
+        "character": "Veera Reddy"
+      }
+    ],
+    "director": "Bellam Ramakrishna Reddy",
+    "tmdb_checked_at": "2026-04-23T02:43:04Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Vanchana",
@@ -2778,8 +3018,8 @@
     "genres": [],
     "cast": [],
     "director": null,
-    "tmdb_checked_at": "2026-04-18T02:58:07Z",
-    "enrichment_status": "error"
+    "tmdb_checked_at": "2026-04-23T02:43:06Z",
+    "enrichment_status": "not_found"
   },
   {
     "name": "3 Roses Season 2",
@@ -4974,17 +5214,42 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "hari-hara-veera-mallu",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:18:26Z",
-    "enrichment_status": "error"
+    "tmdb_id": 727121,
+    "overview": "Set in the 1650s Mughal Era, Veera Mallu, a Robin Hood-like outlaw with secret motives is hired to steal the Koh-i-Noor from Aurangzeb’s palace. He is joined by a crew of misfits, each talented in their own way, to complete the mission.",
+    "poster_path": "/mKM3yC7kepjfs8A723dqd9hOky8.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/mKM3yC7kepjfs8A723dqd9hOky8.jpg",
+    "release_date": "2025-07-23",
+    "runtime": 161,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Pawan Kalyan",
+        "character": "Veera Mallu"
+      },
+      {
+        "name": "Bobby Deol",
+        "character": "Aurangazeb"
+      },
+      {
+        "name": "Nidhhi Agerwal",
+        "character": "Panchami"
+      },
+      {
+        "name": "Nassar",
+        "character": "Vissanna"
+      },
+      {
+        "name": "Sunil Varma",
+        "character": "Subbana"
+      }
+    ],
+    "director": "Jyothi Krishna",
+    "tmdb_checked_at": "2026-04-23T02:43:09Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Gamblers",
@@ -5437,17 +5702,42 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "bhairavam",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:19:07Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1388451,
+    "overview": "The relationship between three childhood friends begins to crumble as their loyalty is tested.",
+    "poster_path": "/dT4zhRKIgRLcoSOWbxsA6vMWLxx.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/dT4zhRKIgRLcoSOWbxsA6vMWLxx.jpg",
+    "release_date": "2025-05-30",
+    "runtime": 155,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      {
+        "name": "Bellamkonda Srinivas",
+        "character": "Seenu"
+      },
+      {
+        "name": "Manchu Manoj",
+        "character": "Gajapathi"
+      },
+      {
+        "name": "Aditi Shankar",
+        "character": "Vennela"
+      },
+      {
+        "name": "Jayasudha",
+        "character": "Nagarathnamma"
+      },
+      {
+        "name": "Nara Rohith",
+        "character": "Varada"
+      }
+    ],
+    "director": "Vijay Kanakamedala",
+    "tmdb_checked_at": "2026-04-23T02:43:11Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Kuberaa",
@@ -6402,17 +6692,41 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "single",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:20:44Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1428301,
+    "overview": "Vijay, a bank employee, falls in love with Purva at first sight and attempts to get closer to her in hopes of winning her affection. Meanwhile, Harini who secretly harbours feelings for Vijay, begins to follow him—turning his love life into a comedic triangle.",
+    "poster_path": "/3cX5JISvLrOrwfb0gCOV7Mz7if0.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/3cX5JISvLrOrwfb0gCOV7Mz7if0.jpg",
+    "release_date": "2025-05-09",
+    "runtime": 127,
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "cast": [
+      {
+        "name": "Sree Vishnu",
+        "character": "Vijay"
+      },
+      {
+        "name": "Ketika Sharma",
+        "character": "Purva"
+      },
+      {
+        "name": "Ivana",
+        "character": "Harini"
+      },
+      {
+        "name": "Vennela Kishore",
+        "character": "Aravind"
+      },
+      {
+        "name": "VTV Ganesh",
+        "character": "Vijay and Aravind's Boss"
+      }
+    ],
+    "director": "Caarthick Raju",
+    "tmdb_checked_at": "2026-04-23T02:43:13Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Pelli Kani Prasad",
@@ -7363,8 +7677,8 @@
     "genres": [],
     "cast": [],
     "director": null,
-    "tmdb_checked_at": "2026-04-18T03:22:09Z",
-    "enrichment_status": "error"
+    "tmdb_checked_at": "2026-04-23T02:43:15Z",
+    "enrichment_status": "not_found"
   },
   {
     "name": "Guardian",
@@ -7530,8 +7844,8 @@
     "genres": [],
     "cast": [],
     "director": null,
-    "tmdb_checked_at": "2026-04-18T03:22:27Z",
-    "enrichment_status": "error"
+    "tmdb_checked_at": "2026-04-23T02:43:17Z",
+    "enrichment_status": "not_found"
   },
   {
     "name": "Court",
@@ -10164,17 +10478,41 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "matka",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:26:56Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1233327,
+    "overview": "Set between the years 1958 and 1982, Matka tells the story of Vasu, who rises from poverty to create a powerful gambling empire in India, ultimately leading the nation into a battle with the government. Based on real events, the tale explores themes of love, moral choices, and the consequences of ambition.",
+    "poster_path": "/1LzHbFk93Lp00ZsqGHPAnAoUJW8.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/1LzHbFk93Lp00ZsqGHPAnAoUJW8.jpg",
+    "release_date": "2024-11-14",
+    "runtime": 159,
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "cast": [
+      {
+        "name": "Varun Tej",
+        "character": "Vasu"
+      },
+      {
+        "name": "Meenakshi Chaudhary",
+        "character": "Sujatha"
+      },
+      {
+        "name": "Nora Fatehi",
+        "character": "Sophiya"
+      },
+      {
+        "name": "Naveen Chandra",
+        "character": "Sahu"
+      },
+      {
+        "name": "Ajay Ghosh",
+        "character": "Applareddy"
+      }
+    ],
+    "director": "Karuna Kumar",
+    "tmdb_checked_at": "2026-04-23T02:43:19Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Naradan",
@@ -11116,17 +11454,41 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "uruku-patela",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
+    "tmdb_id": 1339992,
+    "overview": "Patela, a midwit  finds himself entrapped in a maze of love and deceit from a highly educated Akshara whom he loves but  she is a phantom with an ulterior agenda trying to have him killed.",
+    "poster_path": "/7o4ePBl7QfWJ5M19Zuvz4RuJFef.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/7o4ePBl7QfWJ5M19Zuvz4RuJFef.jpg",
+    "release_date": "2024-09-07",
     "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:28:20Z",
-    "enrichment_status": "error"
+    "genres": [
+      "Comedy",
+      "Thriller"
+    ],
+    "cast": [
+      {
+        "name": "Tejus Kancherla",
+        "character": "Patela"
+      },
+      {
+        "name": "Khushboo Choudhary",
+        "character": "Akshara"
+      },
+      {
+        "name": "Chammak Chandra",
+        "character": null
+      },
+      {
+        "name": "Lavanya Reddy",
+        "character": null
+      },
+      {
+        "name": "Goparaju Ramana",
+        "character": null
+      }
+    ],
+    "director": "Vivek Reddy",
+    "tmdb_checked_at": "2026-04-23T02:43:22Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Yevam",
@@ -13763,17 +14125,22 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "parthu",
-    "tmdb_id": null,
-    "overview": null,
+    "tmdb_id": 1119581,
+    "overview": "Irandil Onru Parthuvidu is a Tamil movie. The movie is directed by Chandana Parthiban and will feature Agaran, Vishnu Kanth and Ramya Jasmine as lead characters.",
     "poster_path": null,
     "poster_url": null,
     "release_date": null,
-    "runtime": null,
+    "runtime": 130,
     "genres": [],
-    "cast": [],
+    "cast": [
+      {
+        "name": "Agaran",
+        "character": null
+      }
+    ],
     "director": null,
-    "tmdb_checked_at": "2026-04-18T03:32:08Z",
-    "enrichment_status": "error"
+    "tmdb_checked_at": "2026-04-23T02:43:28Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Geethanjali Malli Vachindi",
@@ -14094,17 +14461,44 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "family-star",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:32:48Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1141320,
+    "overview": "Govardhan, a devoted architect from Hyderabad, juggles supporting his extended family while seeking a partner who understands his commitments. When he discovers Indu thesis on his family, he challenges her, leading to unexpected twists as they navigate misunderstandings and eventually find love amidst sacrifice and understanding",
+    "poster_path": "/2mLyHeWwU0Ocv9Jvk72IDqZqT7G.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/2mLyHeWwU0Ocv9Jvk72IDqZqT7G.jpg",
+    "release_date": "2024-04-04",
+    "runtime": 155,
+    "genres": [
+      "Family",
+      "Romance",
+      "Comedy",
+      "Drama",
+      "Action"
+    ],
+    "cast": [
+      {
+        "name": "Vijay Deverakonda",
+        "character": "Govardhan"
+      },
+      {
+        "name": "Mrunal Thakur",
+        "character": "Indu"
+      },
+      {
+        "name": "Rohini Hattangadi",
+        "character": "Govardhan's grandmother"
+      },
+      {
+        "name": "Vasuki Anand",
+        "character": "Govardhan's Sister-in-Law"
+      },
+      {
+        "name": "Abhinaya",
+        "character": "Govardhan's Sister-in-Law"
+      }
+    ],
+    "director": "Parasuram Petla",
+    "tmdb_checked_at": "2026-04-23T02:43:30Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Tillu Square",
@@ -14201,17 +14595,41 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "my-dear-donga",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:32:59Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1254518,
+    "overview": "A thief breaks into a lone young woman's home. But when he arrives to steal, the woman catches him and threatens him to throw him over to the cops. The thief then extends his hand for a friendship with her, but not without hurdles.",
+    "poster_path": "/yCJWZSmUT6axBxJbUsZOXCJCAwx.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/yCJWZSmUT6axBxJbUsZOXCJCAwx.jpg",
+    "release_date": "2024-04-18",
+    "runtime": 103,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Abhinav Gomatam",
+        "character": "Suresh / Karthik"
+      },
+      {
+        "name": "Shalini Kondepudi",
+        "character": "Sujatha"
+      },
+      {
+        "name": "Divya Sripada",
+        "character": "Bujji"
+      },
+      {
+        "name": "Nikhil Gajula",
+        "character": "Vishal"
+      },
+      {
+        "name": "Vamshidhar Kosgi Goud",
+        "character": "Vamsi"
+      }
+    ],
+    "director": "B. S. Sarwagna Kumar",
+    "tmdb_checked_at": "2026-04-23T02:43:32Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Saagu",
@@ -15003,17 +15421,34 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "mix-up",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
+    "tmdb_id": 1259399,
+    "overview": "Two couples at a marital crossroads embark on a journey to rekindle their bonds, only to find unexpected connections that challenge their desires and redefine the true meaning of love.",
+    "poster_path": "/ylKD7chB3sjc7qPEYdb4NpXRNUp.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/ylKD7chB3sjc7qPEYdb4NpXRNUp.jpg",
+    "release_date": "2024-03-15",
+    "runtime": 89,
     "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:34:18Z",
-    "enrichment_status": "error"
+    "cast": [
+      {
+        "name": "Akshara Gowda",
+        "character": null
+      },
+      {
+        "name": "Aadarsh Balakrishna",
+        "character": null
+      },
+      {
+        "name": "Pooja Jhaveri",
+        "character": null
+      },
+      {
+        "name": "Kamal Kamaraju",
+        "character": null
+      }
+    ],
+    "director": "Aakash Bikki",
+    "tmdb_checked_at": "2026-04-23T02:43:35Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Save The Tigers 2",
@@ -16473,17 +16908,33 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "krishna-ghattam",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
+    "tmdb_id": 1226342,
+    "overview": "\"Krishna Ghattam\" is a tale of morality and reform. Amidst turmoil, Prasad decides to stand tall. A casanova's pursuits meet his nemesis. A self-righteous boy is tested. Will there be reform? See the battle between wisdom and intelligence.",
+    "poster_path": "/cgMZKCVMi3h7RGfXl5pvILRwfmY.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/cgMZKCVMi3h7RGfXl5pvILRwfmY.jpg",
+    "release_date": "2023-11-03",
+    "runtime": 137,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "cast": [
+      {
+        "name": "Chaitanya Krishna",
+        "character": null
+      },
+      {
+        "name": "Duvvasi Mohan",
+        "character": null
+      },
+      {
+        "name": "Maya Nelluri",
+        "character": null
+      }
+    ],
     "director": null,
-    "tmdb_checked_at": "2026-04-18T03:36:43Z",
-    "enrichment_status": "error"
+    "tmdb_checked_at": "2026-04-23T02:43:38Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Hi Nanna",
@@ -18127,17 +18578,38 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "case-30",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:39:11Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1194954,
+    "overview": "A murder case has been assigned to Crime Branch Officer Arjun Bharadwaj. How Arjun investigates and unthreads the case is the rest of the story.",
+    "poster_path": "/osX3IDO2ezLLzJCBZY3xpp4eivC.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/osX3IDO2ezLLzJCBZY3xpp4eivC.jpg",
+    "release_date": "2023-10-24",
+    "runtime": 120,
+    "genres": [
+      "Romance",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      {
+        "name": "Siddharth Naidu",
+        "character": null
+      },
+      {
+        "name": "Shamili Uniyal",
+        "character": null
+      },
+      {
+        "name": "Tanvi Gawade",
+        "character": null
+      },
+      {
+        "name": "Vamsi Raghava Yenumula",
+        "character": "ACP Ajay Chowdary"
+      }
+    ],
+    "director": "Sandeep Pydimarri",
+    "tmdb_checked_at": "2026-04-23T02:43:40Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Suraapanam",
@@ -18681,17 +19153,40 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "baby",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:39:55Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1196656,
+    "overview": "Two high school friends turned sugar babies, who sacrifice everything for each other. Until love gets in the way",
+    "poster_path": "/96MiE78ur3CQyDVNHTHT4RqBboI.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/96MiE78ur3CQyDVNHTHT4RqBboI.jpg",
+    "release_date": "2023-11-24",
+    "runtime": 114,
+    "genres": [
+      "Romance"
+    ],
+    "cast": [
+      {
+        "name": "Azi Acosta",
+        "character": "Jennifer"
+      },
+      {
+        "name": "Robb Guinto",
+        "character": "Rica"
+      },
+      {
+        "name": "Jeffrey Hidalgo",
+        "character": "Mr. Santos"
+      },
+      {
+        "name": "Josef Elizalde",
+        "character": "Eric"
+      },
+      {
+        "name": "Ralmon Mendoza",
+        "character": "Spencer"
+      }
+    ],
+    "director": "Christian Paolo Lat",
+    "tmdb_checked_at": "2026-04-23T02:43:42Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Bro",
@@ -20498,8 +20993,8 @@
     "genres": [],
     "cast": [],
     "director": null,
-    "tmdb_checked_at": "2026-04-18T03:42:40Z",
-    "enrichment_status": "error"
+    "tmdb_checked_at": "2026-04-23T02:43:44Z",
+    "enrichment_status": "not_found"
   },
   {
     "name": "Richie",
@@ -20780,17 +21275,41 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "waltair-veerayya",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:43:16Z",
-    "enrichment_status": "error"
+    "tmdb_id": 989017,
+    "overview": "A notorious smuggler Waltair Veerayya is hired by a CI Seethapathi, reaches Malaysia with the ostensible mission of kidnapping a drug mafia leader named Solomon, who escaped India after wreaking havoc on the RAW agents and local policemen. Veerayya manages to pummel Solomon, who is fiercely protected by his ruthless gang-lord brother Kaala. Tables are turned, when Veerayya reveals that he shares a turbulent past with Kaala & an ACP Vikram Sagar who is hell-bent on ending his smuggling activities.",
+    "poster_path": "/g4mx225pbBH5i0KSjc3t1pO5hIy.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/g4mx225pbBH5i0KSjc3t1pO5hIy.jpg",
+    "release_date": "2023-01-13",
+    "runtime": 160,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Chiranjeevi",
+        "character": "Waltair Veerayya"
+      },
+      {
+        "name": "Shruti Haasan",
+        "character": "Atidhi"
+      },
+      {
+        "name": "Ravi Teja",
+        "character": "ACP Vikram Sagar"
+      },
+      {
+        "name": "Catherine Tresa",
+        "character": "Dr.Shalini"
+      },
+      {
+        "name": "Bobby Simha",
+        "character": "Solomon Caesar"
+      }
+    ],
+    "director": "Bobby Kolli",
+    "tmdb_checked_at": "2026-04-23T02:43:46Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Home (Telugu Dub)",
@@ -21757,17 +22276,38 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "hit-2",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
+    "tmdb_id": 287642,
+    "overview": "A crew of friends joyously embark on making their first movie by attempting to capture the annual tradition of the “Hit to Pass” demolition race in Prince George, British Columbia. The nature of friendship, storytelling, and the long shadow of colonialism reshape and upend their ambitions.",
+    "poster_path": "/uOLQMG1RouNv9dM9mRF2Cpz7THQ.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/uOLQMG1RouNv9dM9mRF2Cpz7THQ.jpg",
+    "release_date": "2014-10-18",
+    "runtime": 72,
     "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:44:57Z",
-    "enrichment_status": "error"
+    "cast": [
+      {
+        "name": "Neil Bahadur",
+        "character": "Himself"
+      },
+      {
+        "name": "Nathan Giede",
+        "character": "Himself"
+      },
+      {
+        "name": "Rene Grant",
+        "character": "Himself"
+      },
+      {
+        "name": "John Lehtonen",
+        "character": "Himself"
+      },
+      {
+        "name": "Tyson Storozinski",
+        "character": "Himself"
+      }
+    ],
+    "director": "Kurt Walker",
+    "tmdb_checked_at": "2026-04-23T02:43:49Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Matti Kusthi",
@@ -25847,17 +26387,41 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "most-eligible-bachelor",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T03:52:40Z",
-    "enrichment_status": "error"
+    "tmdb_id": 716255,
+    "overview": "A well-educated, ‘settled’ NRI falls for a stand-up comedian and wants to marry her. But when she knows what she wants from her husband, will he fit the bill?",
+    "poster_path": "/1hkHmLMqZZWYMs40eOjI8EIbMu7.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/1hkHmLMqZZWYMs40eOjI8EIbMu7.jpg",
+    "release_date": "2021-10-15",
+    "runtime": 149,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Akhil Akkineni",
+        "character": "Harsha"
+      },
+      {
+        "name": "Pooja Hegde",
+        "character": "Vibha"
+      },
+      {
+        "name": "Jayaprakash",
+        "character": "Harsha's Father"
+      },
+      {
+        "name": "Aamani",
+        "character": "Harsha's mother"
+      },
+      {
+        "name": "Murali Sharma",
+        "character": "Subbu"
+      }
+    ],
+    "director": "Bhaskar",
+    "tmdb_checked_at": "2026-04-23T02:43:55Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Maha Samudram",
@@ -29458,17 +30022,41 @@
     "type": "Series",
     "imdb_rating": null,
     "slug": "athidhi",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T05:28:24Z",
-    "enrichment_status": "error"
+    "tmdb_id": 56996,
+    "overview": "While the nation is terrorized by a slew of kidnappings and murders, a young woman falls in love with a mysterious man; not realizing that he is the one who went to jail for the murder of her parents, thirteen years earlier.",
+    "poster_path": "/jD5qUBrYWzpFNgn4i9xZU2k3n1A.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/jD5qUBrYWzpFNgn4i9xZU2k3n1A.jpg",
+    "release_date": "2007-10-18",
+    "runtime": 172,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "cast": [
+      {
+        "name": "Mahesh Babu",
+        "character": "Athidhi / Aditya"
+      },
+      {
+        "name": "Amrita Rao",
+        "character": "Amrita Goutham"
+      },
+      {
+        "name": "Brahmanandam",
+        "character": "Shivram"
+      },
+      {
+        "name": "Nassar",
+        "character": "Home Minister"
+      },
+      {
+        "name": "Ravi Prakash",
+        "character": "Friend"
+      }
+    ],
+    "director": "Surender Reddy",
+    "tmdb_checked_at": "2026-04-23T02:43:58Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Baak",
@@ -29776,17 +30364,42 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "bichagadu-2",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T05:28:54Z",
-    "enrichment_status": "error"
+    "tmdb_id": 748917,
+    "overview": "A poor man with a painful past becomes a victim of illegal brain replacement surgery, leaving him to struggle in the shoes of a rich billionaire.",
+    "poster_path": "/sZ6b5VYTZRFI1Q66tsOQXKokre7.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/sZ6b5VYTZRFI1Q66tsOQXKokre7.jpg",
+    "release_date": "2023-05-19",
+    "runtime": 148,
+    "genres": [
+      "Action",
+      "Drama",
+      "Science Fiction"
+    ],
+    "cast": [
+      {
+        "name": "Vijay Antony",
+        "character": "Vijay Gurumoorthy / Sathya"
+      },
+      {
+        "name": "Kavya Thapar",
+        "character": null
+      },
+      {
+        "name": "Radha Ravi",
+        "character": null
+      },
+      {
+        "name": "Y. G. Mahendran",
+        "character": null
+      },
+      {
+        "name": "Mansoor Ali Khan",
+        "character": null
+      }
+    ],
+    "director": "Vijay Antony",
+    "tmdb_checked_at": "2026-04-23T02:44:00Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Bimbisara",
@@ -29891,8 +30504,8 @@
     "genres": [],
     "cast": [],
     "director": null,
-    "tmdb_checked_at": "2026-04-18T05:31:07Z",
-    "enrichment_status": "error"
+    "tmdb_checked_at": "2026-04-23T02:44:03Z",
+    "enrichment_status": "not_found"
   },
   {
     "name": "CBI 5: The Brain (Telugu Dub)",
@@ -31356,17 +31969,42 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "highway",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T05:33:05Z",
-    "enrichment_status": "error"
+    "tmdb_id": 939979,
+    "overview": "A truck driver has been forced to smuggle illicit cargo to save her brother from a deadly prison gang. With FBI operatives hot on her trail, Sally's conscience is challenged when the final package turns out to be a teenage girl.",
+    "poster_path": "/2ahZgaFAbWoKMfJHhmhZDrdStgD.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/2ahZgaFAbWoKMfJHhmhZDrdStgD.jpg",
+    "release_date": "2022-07-29",
+    "runtime": 115,
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Juliette Binoche",
+        "character": "Sally"
+      },
+      {
+        "name": "Frank Grillo",
+        "character": "Dennis"
+      },
+      {
+        "name": "Morgan Freeman",
+        "character": "Gerick"
+      },
+      {
+        "name": "Hala Finley",
+        "character": "Leila"
+      },
+      {
+        "name": "Cameron Monaghan",
+        "character": "Special Agent Finley Sterling"
+      }
+    ],
+    "director": "Anna Gutto",
+    "tmdb_checked_at": "2026-04-23T02:44:05Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Hit List",
@@ -31865,8 +32503,8 @@
     "genres": [],
     "cast": [],
     "director": null,
-    "tmdb_checked_at": "2026-04-18T05:33:57Z",
-    "enrichment_status": "error"
+    "tmdb_checked_at": "2026-04-23T02:44:07Z",
+    "enrichment_status": "not_found"
   },
   {
     "name": "Kapatanataka Suthradhaari",
@@ -32117,17 +32755,41 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "krishna-vrinda-vihari",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T05:34:27Z",
-    "enrichment_status": "error"
+    "tmdb_id": 930136,
+    "overview": "Krishna falls for Vrinda and tells a white lie at home to ensure they’re married. But what happens when it leads to unnecessary misunderstandings?",
+    "poster_path": "/9R9YMJLhOtAEtK7SwNrI27GUUu7.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/9R9YMJLhOtAEtK7SwNrI27GUUu7.jpg",
+    "release_date": "2022-09-23",
+    "runtime": 139,
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "cast": [
+      {
+        "name": "Naga Shaurya",
+        "character": "Krishna"
+      },
+      {
+        "name": "Shirley Setia",
+        "character": "Vrinda"
+      },
+      {
+        "name": "Radikaa Sarathkumar",
+        "character": "Amritavalli"
+      },
+      {
+        "name": "Vennela Kishore",
+        "character": "Dr. Satya"
+      },
+      {
+        "name": "Rahul Ramakrishna",
+        "character": null
+      }
+    ],
+    "director": "Annish Krishna",
+    "tmdb_checked_at": "2026-04-23T02:44:08Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Kumari Srimathi",
@@ -32774,7 +33436,7 @@
     "genres": [],
     "cast": [],
     "director": null,
-    "tmdb_checked_at": "2026-04-18T05:35:30Z",
+    "tmdb_checked_at": "2026-04-23T02:44:14Z",
     "enrichment_status": "error"
   },
   {
@@ -32958,17 +33620,42 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "nachindi-girl-friendu",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T05:35:51Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1032698,
+    "overview": "Raja Ram aka Raja, a confident youngster who has just completed his graduation, heads out with a friend to join a finance course. On the way, he falls in love with Sandhya aka Sandy, a software developer who heads an IT firm. From that instance, his life takes several mysterious turns in a few hours.",
+    "poster_path": "/kOyQqVenAMDjzXxOCYAVrMF4Cjh.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/kOyQqVenAMDjzXxOCYAVrMF4Cjh.jpg",
+    "release_date": "2022-11-11",
+    "runtime": 130,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Action"
+    ],
+    "cast": [
+      {
+        "name": "Uday Shankar",
+        "character": "Rajaram aka Raja"
+      },
+      {
+        "name": "Jenifer Emmanuel John",
+        "character": "Sandhya aka Sandy"
+      },
+      {
+        "name": "Madhunandan",
+        "character": "Cherry Chengalrao"
+      },
+      {
+        "name": "Suman Talwar",
+        "character": "Mukesh Gaurav"
+      },
+      {
+        "name": "Srikanth Iyengar",
+        "character": "Krishna Pandey"
+      }
+    ],
+    "director": "Guru Pawan",
+    "tmdb_checked_at": "2026-04-23T02:44:16Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Narayana & Co",
@@ -33170,17 +33857,29 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "ninnu-chere-tarunam",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T05:36:07Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1146214,
+    "overview": "Radha, a blind guy meets Krishna when things are not fine in their lives. Radha hides his disability to Krishna and faces a lot of problems. When things work well, Radha out of guilt, confesses to Krishna that he is blind. Krishna feels betrayed. How things unfurl after this incident forms the rest of the story.",
+    "poster_path": "/5fvuPqZr1ZVRNkp4gM7FSreOJDd.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/5fvuPqZr1ZVRNkp4gM7FSreOJDd.jpg",
+    "release_date": "2023-06-30",
+    "runtime": 96,
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Manika Chikkala",
+        "character": null
+      },
+      {
+        "name": "Manoj Krishna Tanneru",
+        "character": null
+      }
+    ],
+    "director": "Ruchita Rao",
+    "tmdb_checked_at": "2026-04-23T02:44:18Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Nireekshana ((Rent))",
@@ -34168,17 +34867,42 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "ranga-ranga-vaibhavanga",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T05:37:45Z",
-    "enrichment_status": "error"
+    "tmdb_id": 934772,
+    "overview": "Two childhood sweethearts love to hate each other due to their egos. What happens when they reconcile but their families begin warring each other instead?",
+    "poster_path": "/4FiERyPvvgla3ebsDsxsOmet7FO.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/4FiERyPvvgla3ebsDsxsOmet7FO.jpg",
+    "release_date": "2022-09-02",
+    "runtime": 122,
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Panja Vaisshnav Tej",
+        "character": "Rishi"
+      },
+      {
+        "name": "Ketika Sharma",
+        "character": "Radha"
+      },
+      {
+        "name": "Naveen Chandra",
+        "character": "Arjun"
+      },
+      {
+        "name": "Naresh",
+        "character": "Chanti"
+      },
+      {
+        "name": "Prabhu",
+        "character": "Ram"
+      }
+    ],
+    "director": "Gireeshaaya",
+    "tmdb_checked_at": "2026-04-23T02:44:20Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Ravanasura",
@@ -34231,17 +34955,41 @@
     "type": "Series",
     "imdb_rating": null,
     "slug": "recce",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T05:37:55Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1265391,
+    "overview": "When a renowned film director, clashes with the young son of a house she's using as a filming location, a power struggle ensues, forcing the director to confront her own arrogance.",
+    "poster_path": "/oyttwRXm5JQZxEWqqbjeCoTMEyV.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/oyttwRXm5JQZxEWqqbjeCoTMEyV.jpg",
+    "release_date": "2024-09-23",
+    "runtime": 19,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Tülin Özen",
+        "character": "Selma"
+      },
+      {
+        "name": "Fatih Berk Sahin",
+        "character": "Mert"
+      },
+      {
+        "name": "Süleyman Kabaali",
+        "character": "Samet"
+      },
+      {
+        "name": "Ekin Gökgöz",
+        "character": "Cenk"
+      },
+      {
+        "name": "Selin Çobanoglu",
+        "character": "Gamze"
+      }
+    ],
+    "director": "Efe Can Yildiz",
+    "tmdb_checked_at": "2026-04-23T02:44:25Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Repeat",
@@ -35614,17 +36362,42 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "valimai",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-18T05:39:53Z",
-    "enrichment_status": "error"
+    "tmdb_id": 640484,
+    "overview": "A honest cop tries to track down the brain behind a series of robberies and murders, but things turn personal when his family become pawns in the criminal's game.",
+    "poster_path": "/zlh80l4fmOZy8KL34QVBtVjqYFs.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/zlh80l4fmOZy8KL34QVBtVjqYFs.jpg",
+    "release_date": "2022-02-24",
+    "runtime": 179,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "cast": [
+      {
+        "name": "Ajith Kumar",
+        "character": "ACP Arjun Kumar IPS"
+      },
+      {
+        "name": "Huma Qureshi",
+        "character": "Sophia"
+      },
+      {
+        "name": "Kartikeya Gummakonda",
+        "character": "'Wolf Ranga' Naren"
+      },
+      {
+        "name": "Gurbani Judge",
+        "character": "Sara"
+      },
+      {
+        "name": "Sumithra",
+        "character": "Lakshmi"
+      }
+    ],
+    "director": "H. Vinoth",
+    "tmdb_checked_at": "2026-04-23T02:44:26Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Vikram",
