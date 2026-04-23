@@ -17,9 +17,11 @@ import logging
 import os
 import json
 import subprocess
+import threading
 from datetime import datetime
 
 from deploy_hook import trigger_frontend_rebuild
+from scrapper import scrape_movies
 
 logging.basicConfig(
     level=logging.INFO,
@@ -77,6 +79,79 @@ def get_movies():
     except Exception as e:
         print(f"Error reading movie data: {str(e)}")
         return jsonify({"error": "Failed to load movie data"}), 500
+
+_scrape_lock = threading.Lock()
+_scrape_state = {"running": False, "last_finished_at": None, "last_error": None}
+
+
+def _run_scrape_and_rebuild():
+    """Run the scrape + TMDB enrichment, then fire the frontend rebuild hook.
+
+    Runs in a background thread so the HTTP request returns immediately — a
+    full scrape can take minutes and Render's HTTP timeout is ~30s.
+    """
+    logger = logging.getLogger(__name__)
+    try:
+        logger.info("Manual scrape starting")
+        scrape_movies()
+        logger.info("Manual scrape finished; triggering frontend rebuild")
+        success, message = trigger_frontend_rebuild()
+        if success:
+            logger.info("Frontend deploy hook triggered: %s", message)
+        else:
+            logger.warning("Frontend deploy hook not triggered: %s", message)
+        _scrape_state["last_error"] = None
+    except Exception as exc:  # noqa: BLE001 - background job must not crash worker
+        logger.exception("Manual scrape failed")
+        _scrape_state["last_error"] = str(exc)
+    finally:
+        _scrape_state["last_finished_at"] = datetime.utcnow().isoformat() + "Z"
+        _scrape_state["running"] = False
+
+
+@app.route("/admin/run-scrape", methods=["POST"])
+def run_scrape():
+    """Manual scrape + enrich + frontend rebuild trigger.
+
+    Same auth model as /admin/rebuild-frontend. Fires the work in a
+    background thread and returns 202 immediately. Poll the same endpoint
+    with GET to check status.
+    """
+    expected_secret = os.environ.get("ADMIN_REBUILD_SECRET")
+    if not expected_secret:
+        return jsonify({"error": "admin scrape disabled"}), 503
+
+    provided_secret = request.headers.get("X-Admin-Secret")
+    if not provided_secret or provided_secret != expected_secret:
+        return jsonify({"error": "unauthorized"}), 401
+
+    if not _scrape_lock.acquire(blocking=False):
+        return jsonify({"error": "scrape already running"}), 409
+    try:
+        if _scrape_state["running"]:
+            return jsonify({"error": "scrape already running"}), 409
+        _scrape_state["running"] = True
+    finally:
+        _scrape_lock.release()
+
+    thread = threading.Thread(target=_run_scrape_and_rebuild, daemon=True)
+    thread.start()
+    return jsonify({"status": "started"}), 202
+
+
+@app.route("/admin/run-scrape", methods=["GET"])
+def run_scrape_status():
+    """Return the state of the most recent manual scrape."""
+    expected_secret = os.environ.get("ADMIN_REBUILD_SECRET")
+    if not expected_secret:
+        return jsonify({"error": "admin scrape disabled"}), 503
+
+    provided_secret = request.headers.get("X-Admin-Secret")
+    if not provided_secret or provided_secret != expected_secret:
+        return jsonify({"error": "unauthorized"}), 401
+
+    return jsonify(_scrape_state), 200
+
 
 @app.route("/admin/rebuild-frontend", methods=["POST"])
 def rebuild_frontend():
