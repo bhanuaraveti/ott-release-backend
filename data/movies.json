@@ -43,6 +43,317 @@
     "enrichment_status": "ok"
   },
   {
+    "name": "Dacoit",
+    "platform": "Prime Video",
+    "available_on": "08 May 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "dacoit",
+    "tmdb_id": 1220522,
+    "overview": "Betrayed by his better half, a man is convicted for a crime he didn't commit. Once free, he hunts her down in pursuit of vengeance, as their stories intertwine with a series of robberies.",
+    "poster_path": "/lbrnJY7E0a9xxgj2cotNp6YI4dz.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/lbrnJY7E0a9xxgj2cotNp6YI4dz.jpg",
+    "release_date": "2026-04-10",
+    "runtime": 150,
+    "genres": [
+      "Action",
+      "Romance",
+      "Thriller"
+    ],
+    "cast": [
+      {
+        "name": "Adivi Sesh",
+        "character": "Haridas"
+      },
+      {
+        "name": "Mrunal Thakur",
+        "character": "Saraswati / Juliet"
+      },
+      {
+        "name": "Anurag Kashyap",
+        "character": "D Rambabu"
+      },
+      {
+        "name": "Prakash Raj",
+        "character": "Solomon"
+      },
+      {
+        "name": "Sunil Varma",
+        "character": "Prasad"
+      }
+    ],
+    "director": "Shaneil Deo",
+    "tmdb_checked_at": "2026-05-04T07:49:21Z",
+    "enrichment_status": "ok"
+  },
+  {
+    "name": "Vaazha 2 (Telugu)",
+    "platform": "JioHotstar",
+    "available_on": "08 May 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "vaazha-2-telugu",
+    "tmdb_id": null,
+    "overview": null,
+    "poster_path": null,
+    "poster_url": null,
+    "release_date": null,
+    "runtime": null,
+    "genres": [],
+    "cast": [],
+    "director": null,
+    "tmdb_checked_at": "2026-05-04T07:49:25Z",
+    "enrichment_status": "not_found"
+  },
+  {
+    "name": "LIK: Love Insurance Kompany",
+    "platform": "Prime Video",
+    "available_on": "06 May 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "lik-love-insurance-kompany",
+    "tmdb_id": 1209511,
+    "overview": "In 2040, an app premised on ensuring romance for all is used widely by the population. When the voice behind the app's AI realizes its misconception to true love, he embarks on a quest to prove that love does not come from a screen.",
+    "poster_path": "/1IIUWMKzNVvI6YJX8BKE6EJ9bVd.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/1IIUWMKzNVvI6YJX8BKE6EJ9bVd.jpg",
+    "release_date": "2026-04-10",
+    "runtime": 157,
+    "genres": [
+      "Romance",
+      "Science Fiction",
+      "Comedy"
+    ],
+    "cast": [
+      {
+        "name": "Pradeep Ranganathan",
+        "character": "Vaibhav Vasudevan \"Vibe Vassey\""
+      },
+      {
+        "name": "Krithi Shetty",
+        "character": "Dheema"
+      },
+      {
+        "name": "S. J. Suryah",
+        "character": "Suriyan"
+      },
+      {
+        "name": "Yogi Babu",
+        "character": "Jolly Prabhu"
+      },
+      {
+        "name": "Gouri G Kishan",
+        "character": "Kalki"
+      }
+    ],
+    "director": "Vignesh Shivan",
+    "tmdb_checked_at": "2026-05-04T07:49:32Z",
+    "enrichment_status": "ok"
+  },
+  {
+    "name": "Aaradhana",
+    "platform": "ETV Win",
+    "available_on": "03 May 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "aaradhana",
+    "tmdb_id": 1656597,
+    "overview": "Maya, a dedicated and pregnant doctor, moves into a rural village with her husband Pradeep, a novelist seeking peace and inspiration for his next book. They hope for a fresh start in a calm and isolated environment.",
+    "poster_path": "/49QyFv7X439mTQXFk9NntQ9WlKE.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/49QyFv7X439mTQXFk9NntQ9WlKE.jpg",
+    "release_date": "2025-07-10",
+    "runtime": 134,
+    "genres": [
+      "Thriller"
+    ],
+    "cast": [
+      {
+        "name": "Punitah Shanmugam",
+        "character": "Maya"
+      },
+      {
+        "name": "Auro Chakkravarthy",
+        "character": "Pradeep"
+      },
+      {
+        "name": "Sri Kalirajan Marimuthu",
+        "character": "Yogi"
+      },
+      {
+        "name": "Sri Kumaran Munusamy",
+        "character": "Kamal"
+      },
+      {
+        "name": "Aghonderan Sahadevan",
+        "character": "Dharmalingam"
+      }
+    ],
+    "director": "Malathi Sivagami",
+    "tmdb_checked_at": "2026-05-04T07:49:35Z",
+    "enrichment_status": "ok"
+  },
+  {
+    "name": "Aadu 3 (Telugu)",
+    "platform": "Zee5",
+    "available_on": "01 May 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "aadu-3-telugu",
+    "tmdb_id": null,
+    "overview": null,
+    "poster_path": null,
+    "poster_url": null,
+    "release_date": null,
+    "runtime": null,
+    "genres": [],
+    "cast": [],
+    "director": null,
+    "tmdb_checked_at": "2026-05-04T07:49:37Z",
+    "enrichment_status": "not_found"
+  },
+  {
+    "name": "Biker",
+    "platform": "Netflix",
+    "available_on": "01 May 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "biker",
+    "tmdb_id": 1423251,
+    "overview": "A seasoned motocross rider returns to the grueling sport he once abandoned, confronting fierce competition and a father who might push him to the brink.",
+    "poster_path": "/cKuFTk3qqrASg2nopJwDdeAroeF.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/cKuFTk3qqrASg2nopJwDdeAroeF.jpg",
+    "release_date": "2026-04-03",
+    "runtime": 162,
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Sharwanand",
+        "character": "Vikas Narayan"
+      },
+      {
+        "name": "Dr. Rajasekhar",
+        "character": "Bullet Sunil"
+      },
+      {
+        "name": "Malavika Nair",
+        "character": "Ananya"
+      },
+      {
+        "name": "Atul Kulkarni",
+        "character": "Indraneel"
+      },
+      {
+        "name": "Brahmaji",
+        "character": "Mahesh"
+      }
+    ],
+    "director": "Abhilash Reddy",
+    "tmdb_checked_at": "2026-05-04T07:49:39Z",
+    "enrichment_status": "ok"
+  },
+  {
+    "name": "Raakaasa",
+    "platform": "Netflix",
+    "available_on": "01 May 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "raakaasa",
+    "tmdb_id": 1451078,
+    "overview": "Returning home after a decade, an NRI chasing romance inadvertently awakens an ancient darkness long feared by his village. As the threat intensifies, love turns deadly and life hangs in the balance.",
+    "poster_path": "/x7zwiuC1HTw5XGZ5JrOwF9uFqRy.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/x7zwiuC1HTw5XGZ5JrOwF9uFqRy.jpg",
+    "release_date": "2026-04-03",
+    "runtime": 130,
+    "genres": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "cast": [
+      {
+        "name": "Sangeeth Shobhan",
+        "character": null
+      },
+      {
+        "name": "Nayan Sarika",
+        "character": null
+      },
+      {
+        "name": "Raadhya",
+        "character": null
+      },
+      {
+        "name": "Vennela Kishore",
+        "character": null
+      },
+      {
+        "name": "Getup Srinu",
+        "character": null
+      }
+    ],
+    "director": "Manasa Sharma",
+    "tmdb_checked_at": "2026-05-04T07:49:41Z",
+    "enrichment_status": "ok"
+  },
+  {
+    "name": "Sodhara",
+    "platform": "Aha",
+    "available_on": "01 May 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "sodhara",
+    "tmdb_id": 1685629,
+    "overview": "Sodara is a heartfelt story set in a rural village where deep-rooted traditions and strong family values shape everyday life. At its center are two brothers-Chiru, the elder, known for his responsibility and unwavering sense of duty, and Pavan, the younger, whose charm and impulsiveness often get him into trouble.",
+    "poster_path": "/7Kw1e0zhNciVNFI4g8C0PENVqyq.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/7Kw1e0zhNciVNFI4g8C0PENVqyq.jpg",
+    "release_date": "2026-04-25",
+    "runtime": 130,
+    "genres": [],
+    "cast": [],
+    "director": null,
+    "tmdb_checked_at": "2026-05-04T07:49:47Z",
+    "enrichment_status": "ok"
+  },
+  {
+    "name": "The Kerala Story 2 (Telugu)",
+    "platform": "Zee5",
+    "available_on": "01 May 2026",
+    "type": "Film",
+    "imdb_rating": null,
+    "slug": "the-kerala-story-2-telugu",
+    "tmdb_id": null,
+    "overview": null,
+    "poster_path": null,
+    "poster_url": null,
+    "release_date": null,
+    "runtime": null,
+    "genres": [],
+    "cast": [],
+    "director": null,
+    "tmdb_checked_at": "2026-05-04T07:49:51Z",
+    "enrichment_status": "not_found"
+  },
+  {
+    "name": "Batch Mates",
+    "platform": "JioHotstar",
+    "available_on": "30 Apr 2026",
+    "type": "Series",
+    "imdb_rating": null,
+    "slug": "batch-mates",
+    "tmdb_id": null,
+    "overview": null,
+    "poster_path": null,
+    "poster_url": null,
+    "release_date": null,
+    "runtime": null,
+    "genres": [],
+    "cast": [],
+    "director": null,
+    "tmdb_checked_at": "2026-05-04T07:49:58Z",
+    "enrichment_status": "not_found"
+  },
+  {
     "name": "Band Melam",
     "platform": "Zee5",
     "available_on": "24 Apr 2026",
@@ -33427,17 +33738,41 @@
     "type": "Film",
     "imdb_rating": null,
     "slug": "men-too",
-    "tmdb_id": null,
-    "overview": null,
-    "poster_path": null,
-    "poster_url": null,
-    "release_date": null,
-    "runtime": null,
-    "genres": [],
-    "cast": [],
-    "director": null,
-    "tmdb_checked_at": "2026-04-23T02:44:14Z",
-    "enrichment_status": "error"
+    "tmdb_id": 1093983,
+    "overview": "Aditya, Sanju, and Munna are friends and regulars to a unique pub named ‘Stags Only’. One day, at the pub, they befriend an IT employee Rahul who lost his job due to sexual harassment allegations. Rahul's destiny triggers a change in the lives of the three friends.",
+    "poster_path": "/f3hy4P0yMm7zYXYmaOeueA6BflB.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/f3hy4P0yMm7zYXYmaOeueA6BflB.jpg",
+    "release_date": "2023-05-26",
+    "runtime": 114,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "cast": [
+      {
+        "name": "Naresh Agastya",
+        "character": "Aditya"
+      },
+      {
+        "name": "Harsha Chemudu",
+        "character": "Rahul"
+      },
+      {
+        "name": "Riya Suman",
+        "character": "Tara"
+      },
+      {
+        "name": "Brahmaji",
+        "character": "Pub Owner"
+      },
+      {
+        "name": "Mourya Siddavaram",
+        "character": "Munna"
+      }
+    ],
+    "director": "Srikanth G. Reddy",
+    "tmdb_checked_at": "2026-05-04T07:50:00Z",
+    "enrichment_status": "ok"
   },
   {
     "name": "Miral",
